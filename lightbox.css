@@ -1,0 +1,74 @@
+body {
+  font-family: "Helvetica Neue", Arial, sans-serif;
+}
+
+.hidden {
+  display: none;
+}
+
+.separator {
+  cursor: auto;
+}
+
+.thumbnail {
+  box-shadow: 0 0 3px #777;
+  cursor: pointer;
+  margin: 5px;
+  padding: 5px;
+}
+
+.thumbnail:focus, .thumbnail:hover {
+  box-shadow: 0 0 3px lightgrey;
+}
+
+.thumbnail:active {
+  box-shadow: 0 0 3px dimgrey;
+}
+
+.overlay {
+  background: rgba(0, 0, 0, 0.8);
+  cursor: pointer;
+  height: 100%;
+  left: 0;
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.full {
+  cursor: auto;
+  margin: auto 25%;
+  max-height: 90vh;
+  width: 50%;
+}
+
+.nav-title {
+  color: lightblue;
+  cursor: auto;
+  margin-bottom: 5px;
+  margin-left: 25%;
+  margin-top: 10px;
+}
+
+.nav-links {
+  color: lightgreen;
+  margin-left: 25%;
+}
+
+.nav-link {
+  color: lightgreen;
+  letter-spacing: .5px;
+  text-decoration: none;
+}
+
+.nav-link:hover {
+  color: green;
+}
+
+.nav-link:active {
+  color: chartreuse;
+}
+.nav-link:focus {
+  outline: none;
+  text-decoration: underline;
+}
