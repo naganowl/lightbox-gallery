@@ -1,6 +1,6 @@
 (function(win, doc) {
   // SFW fractals from Reddit
-  var API_URL = 'http://www.reddit.com/r/FractalPorn/.json?jsonp=processResults&count=125&after=t3_38i3j7',
+  var API_URL = 'http://www.reddit.com/r/FractalPorn/.json?jsonp=processResults&count=125',
       // Corresponding thumbnail to image in lightbox.
       curEl,
       // Convenience references for DOM nodes.
